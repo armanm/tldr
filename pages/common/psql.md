@@ -7,6 +7,10 @@
 
 `psql {{database}}`
 
+- Connect to the database using a connection string:
+
+`psql postgresql://{{username}}@{{host}}:{{port}}/{{database}}`
+
 - Connect to the database on given server host running on given port with given username, without a password prompt:
 
 `psql -h {{host}} -p {{port}} -U {{username}} {{database}}`
